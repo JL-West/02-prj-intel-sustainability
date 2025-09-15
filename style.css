@@ -20,6 +20,10 @@
 	transition: box-shadow 0.3s;
 }
 .card:hover {
+/* Set a light green background for the whole page */
+body {
+  background-color: #eafbe7;
+}
 	box-shadow: 0 4px 16px rgba(0,0,0,0.2); /* Slightly bigger shadow on hover */
 }
 
