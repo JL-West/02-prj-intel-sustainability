@@ -20,11 +20,12 @@
 	transition: box-shadow 0.3s;
 }
 .card:hover {
+	box-shadow: 0 4px 16px rgba(0,0,0,0.2); /* Slightly bigger shadow on hover */
+}
+
 /* Set a light green background for the whole page */
 body {
-  background-color: #eafbe7;
-}
-	box-shadow: 0 4px 16px rgba(0,0,0,0.2); /* Slightly bigger shadow on hover */
+	background-color: #eafbe7;
 }
 
 .card img {
